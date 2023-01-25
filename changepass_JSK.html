@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+
+<head>
+<title> Operating System </title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+<nav>
+<button onclick="go_settings_JSK()"><img src="go_back.png"></button>
+<button onclick="go_home_JSK()"><img src="go_home.png"></button>
+</nav><hr><br><br>
+
+<form>
+
+<p>Enter new password : </p>
+<input type="password" id="old_JSK" placeholder="old password"></input>
+
+<p>Enter new password : </p>
+<input type="password" id="new_JSK1" placeholder="new password1"></input>
+
+<p>Enter new password again: </p>
+<input type="password" id="new_JSK2" placeholder="new password2"></input><br>
+
+<button onclick="changepass_JSK()"><p>Submit</p></button>
+</form>
+
+<script src="login.js"></script>
+
+
+<script>
+
+function go_home_JSK() {
+	window.close();
+	window.open('https://operating-system--jskthelegend.repl.co/home_page_JSK.html');
+}
+
+function go_settings_JSK() {
+	window.close();
+	window.open('https://operating-system--jskthelegend.repl.co/settings_JSK.html');
+}
+
+</script>
+
+
+</body>
+
+</html>

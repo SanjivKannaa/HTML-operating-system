@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+
+<head>
+<title> Operating System </title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+
+<nav>
+<button onclick="go_settings_RL()"><img src="go_back.png"></button>
+<button onclick="go_home_RL()"><img src="go_home.png"></button>
+</nav><hr><br><br>
+
+<form>
+
+<p>Enter old password : </p>
+<input type="password" id="old_RL" placeholder="old password"></input>
+
+<p>Enter new password : </p>
+<input type="password" id="new_RL1" placeholder="new password1"></input>
+
+<p>Enter new password again: </p>
+<input type="password" id="new_RL2" placeholder="new password2"></input><br>
+
+<button onclick="changepass_RL()"><p>Submit</p></button>
+</form>
+
+<script src="login.js"></script>
+
+
+<script>
+
+function go_home_RL() {
+	window.close();
+	window.open('https://operating-system--jskthelegend.repl.co/home_page_RL.html');
+}
+
+function go_settings_RL() {
+	window.close();
+	window.open('https://operating-system--jskthelegend.repl.co/settings_RL.html');
+}
+
+</script>
+
+
+</body>
+
+</html>
